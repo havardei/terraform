@@ -1,0 +1,12 @@
+project_name = ""
+az_list = ["nova"]
+public_key_path = "~/.ssh/id_rsa.pub"
+image = ""
+ssh_user = ""
+flavor = "" #flavor id
+network_name = ""
+external_net = "" "external network id
+floatingip_pool = "" 
+number_of_instances = 1
+instance_root_volume_size_in_gb = 80
+instance_allowed_remote_ips = [""]
