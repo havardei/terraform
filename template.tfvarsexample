@@ -10,3 +10,5 @@ floatingip_pool = ""
 number_of_instances = 1
 instance_root_volume_size_in_gb = 80
 instance_allowed_remote_ips = [""]
+instance_allowed_egress_ips = [""]
+instance_allowed_ports = [] #ingress
