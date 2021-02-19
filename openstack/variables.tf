@@ -87,13 +87,6 @@ variable "instance_allowed_egress_ips" {
 variable "instance_allowed_ports" {
   type = list
 
-  default = [
-    {
-      "protocol"         = "tcp"
-      "port_range_min"   = 30000
-      "port_range_max"   = 32767
-      "remote_ip_prefix" = "0.0.0.0/0"
-    },
-  ]
+  default = []
 }
 
